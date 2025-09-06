@@ -91,7 +91,7 @@ Confira a solução em ação através dos links abaixo:
 
 | Recurso | Link |
 | :--- | :--- |
-| 🌐 **Simulação no Wokwi** | `[(https://wokwi.com/projects/441246875648066561)]` |
+| 🌐 **Simulação no Wokwi** | `https://wokwi.com/projects/441246875648066561` |
 | 🎥 **Vídeo de Demonstração** | `[COLE AQUI O LINK PÚBLICO DO SEU VÍDEO NO YOUTUBE/DRIVE]` |
 | 📂 **Repositório de Referência** | [GitHub - FIWARE Descomplicado](https://github.com/fabiocabrini/fiware) |
 
