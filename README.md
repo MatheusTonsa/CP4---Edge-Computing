@@ -25,8 +25,7 @@ A solução é fundamentada no padrão **NGSI-v2** para garantir a interoperabil
 O fluxo de dados e comandos segue a arquitetura abaixo:
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c9443e4c-1548-4578-8da2-33ed1eed6f30" alt="Arquitetura da Solução" width="800"/>
-</div>
+
 
 ### Esquema de Conexão do Dispositivo
 
