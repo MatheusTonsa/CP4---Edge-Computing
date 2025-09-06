@@ -100,4 +100,3 @@ Confira a solução em ação através dos links abaixo:
 Este README foi criado para ser claro, informativo e visualmente atraente. Espero que goste!
 
 ---
-O que acha desta versão? Podemos ajustar mais algum detalhe ou adicionar outra seção se precisar.
