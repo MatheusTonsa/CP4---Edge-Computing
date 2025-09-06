@@ -30,10 +30,6 @@ O fluxo de dados e comandos segue a arquitetura abaixo:
 
 ### Esquema de Conexão do Dispositivo
 
-<div align="center">
-  <img src="Captura de tela 2025-09-06 124443.png" alt="Conexão ESP32 com Sensor" width="400"/>
-</div>
-
 1.  **Dispositivo de Borda (Edge):** Um **ESP32** com sensor LDR mede a luminosidade e envia os dados via protocolo MQTT.
 2.  **IoT Agent:** Recebe os dados, traduz o protocolo e os repassa ao Orion Context Broker.
 3.  **Orion Context Broker:** Gerencia o estado atual da entidade (`SmartLamp`), tratando-a como um "Digital Twin".
