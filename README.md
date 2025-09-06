@@ -25,7 +25,8 @@ A solução é fundamentada no padrão **NGSI-v2** para garantir a interoperabil
 O fluxo de dados e comandos segue a arquitetura abaixo:
 
 <div align="center">
-  <img src="https://i.imgur.com/g4gV3A3.png" alt="Arquitetura da Solução" width="800"/>
+  <img src="<img width="501" height="499" alt="Captura de tela 2025-09-06 124443" src="https://github.com/user-attachments/assets/c9443e4c-1548-4578-8da2-33ed1eed6f30" />
+" alt="Arquitetura da Solução" width="800"/>
 </div>
 
 1.  **Dispositivo de Borda (Edge):** Um **ESP32** com sensor LDR mede a luminosidade e envia os dados via protocolo MQTT.
