@@ -25,8 +25,13 @@ A solução é fundamentada no padrão **NGSI-v2** para garantir a interoperabil
 O fluxo de dados e comandos segue a arquitetura abaixo:
 
 <div align="center">
-  <img src="" src="https://github.com/user-attachments/assets/c9443e4c-1548-4578-8da2-33ed1eed6f30" />
-" alt="Arquitetura da Solução" width="800"/>
+  <img src="https://github.com/user-attachments/assets/c9443e4c-1548-4578-8da2-33ed1eed6f30" alt="Arquitetura da Solução" width="800"/>
+</div>
+
+### Esquema de Conexão do Dispositivo
+
+<div align="center">
+  <img src="Captura de tela 2025-09-06 124443.png" alt="Conexão ESP32 com Sensor" width="400"/>
 </div>
 
 1.  **Dispositivo de Borda (Edge):** Um **ESP32** com sensor LDR mede a luminosidade e envia os dados via protocolo MQTT.
@@ -34,6 +39,7 @@ O fluxo de dados e comandos segue a arquitetura abaixo:
 3.  **Orion Context Broker:** Gerencia o estado atual da entidade (`SmartLamp`), tratando-a como um "Digital Twin".
 4.  **STH-Comet:** Uma subscrição no Orion garante que todas as alterações de `luminosity` sejam enviadas para o banco de dados de séries temporais, criando um histórico para análises.
 5.  **Controle (Cloud-to-Edge):** Um usuário (via **Postman**) envia um comando (`on`/`off`) para a API do Orion, que o repassa ao IoT Agent e, finalmente, ao ESP32 para acionar o LED.
+
 
 ---
 
