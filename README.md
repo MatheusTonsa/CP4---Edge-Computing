@@ -5,10 +5,11 @@ CP4---Edge Computing
 
 | Nome Completo | RM |
 | :--- | :--- |
-| `[Nome do Aluno 1]` | `[RM do Aluno 1]` |
-| `[Nome do Aluno 2]` | `[RM do Aluno 2]` |
-| `[Nome do Aluno 3]` | `[RM do Aluno 3]` |
-
+| `[Matheus Tonsa Martini]` | `[564454]` |
+| `[Arthur Albertini Soares Pereira]` | `[565954]` |
+| `[Sebastian Iriarte Gonzales]` | `[563619]` |
+| `[Fabio Pereira Rogério Júnior]` | `[564005]` |
+| `[Kauã Veloso Lima]` | `[561954]` |
 ---
 
 ## 📜 Sobre o Projeto
